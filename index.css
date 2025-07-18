@@ -1,0 +1,80 @@
+   
+.custom-navbar {
+  background-color:black; 
+}
+
+
+.custom-navbar .nav-link {
+  color: rgb(187, 178, 178) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+   
+ body{
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg);
+    
+  background-repeat: repeat-x; /* Repeat horizontally */
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+
+}
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1000px 0;
+  }
+}
+.homeentire{
+    display:flex;
+    justify-content: center;
+    padding:80px;
+}
+
+.mypic{
+    border-radius: 500px;
+    width:600px;
+    height: 600px;
+    padding:40px;
+    margin-top: 50px;;
+}
+.homecontent{
+    padding:50px;
+    color:azure;
+    margin-top: 50px;
+    text-align: justify;
+}
+.p3{
+    font-size: xx-large;
+}
+.p1{
+    font-size:20px;
+}
+
+
+
+
+
+
+
+.custom-navbar {
+  background-color: #343a40; /* Dark background */
+}
+
+
+.custom-navbar .nav-link {
+  color: rgba(192, 184, 184, 0.695) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
