@@ -1,6 +1,7 @@
    
 .custom-navbar {
   background-color:black; 
+  position:sticky;
 }
 
 
@@ -39,8 +40,8 @@
 
 .mypic{
     border-radius: 500px;
-    width:600px;
-    height: 600px;
+    width:500px;
+    height: 500px;
     padding:40px;
     margin-top: 50px;;
 }
@@ -55,16 +56,14 @@
 }
 .p1{
     font-size:20px;
+    color:rgb(244, 231, 231)
 }
 
 
 
 
-
-
-
 .custom-navbar {
-  background-color: #343a40; /* Dark background */
+  background-color: #121213; /* Dark background */
 }
 
 
@@ -78,3 +77,4 @@
 .custom-navbar .navbar-brand{
     color:whitesmoke;
 }
+

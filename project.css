@@ -1,0 +1,151 @@
+.custom-navbar {
+  background-color:black; 
+  position:sticky;
+}
+
+
+.custom-navbar .nav-link {
+  color: rgb(187, 178, 178) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+
+
+ body{
+    background-image: url(https://wallpapers.com/images/hd/black-macbook-volz2mxuyjhvm4m6.jpg);
+    
+  background-repeat: repeat-x; /* Repeat horizontally */
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+
+}
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1000px 0;
+  }
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  
+  color: white;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+header span {
+  font-family: monospace;
+  font-weight: 300;
+}
+
+header p {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+
+
+
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  flex: 1;
+  background: black;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.readmore {
+  background: rgb(137, 134, 134);
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.custom-navbar {
+  background-color: #121213; /* Dark background */
+}
+
+
+.custom-navbar .nav-link {
+  color: rgba(192, 184, 184, 0.695) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+.ppp{
+  font-size: 20px;
+}
+h4{
+  color:beige;
+}
+.whole{
+  display:flex;
+}
+.ghg{
+  font-size: 53px;;
+}
+.right{
+  text-align: center;
+  margin-top: 100px;
+  width:28%;
+}

@@ -1,0 +1,133 @@
+
+
+
+
+.custom-navbar {
+  background-color:black; 
+  position:sticky;
+}
+
+
+.custom-navbar .nav-link {
+  color: rgb(187, 178, 178) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+   
+ body{
+    background-image: url(https://www.newgamenetwork.com/images/uploads/gallery/TheDevilInMe/devilinme_07.jpg) ;
+    
+  background-repeat: repeat-x; /* Repeat horizontally */
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+
+}
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1000px 0;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+ 
+  color: #222;
+}
+
+/* Hero Banner */
+.hero {
+  
+  background: url(https://www.newgamenetwork.com/images/uploads/gallery/TheDevilInMe/devilinme_07.jpg)no-repeat ;
+  height: 400px;;
+  position: relative;
+ background-repeat: repeat-x; /* Repeat horizontally */
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+  
+}
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1000px 0;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.overlay span {
+  font-weight: bold;
+  color: #4fc3f7;
+  font-size: 3.5rem;
+}
+
+
+.about-intro {
+  padding: 20px 30px;
+  background: #e0e0e0;
+  text-align: center;
+  
+}
+
+.about-intro h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+.about-intro p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.custom-navbar {
+  background-color: #121213; /* Dark background */
+}
+
+
+.custom-navbar .nav-link {
+  color: rgba(192, 184, 184, 0.695) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+
+
+
+
+
+
+

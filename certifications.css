@@ -1,0 +1,114 @@
+   
+.custom-navbar {
+  background-color:black; 
+  position:sticky;
+}
+
+
+.custom-navbar .nav-link {
+  color: rgb(187, 178, 178) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+   
+ body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBs-RH3ZQDpym196-3s82SBqDtEBsYvakAPg&s);
+    
+  background-repeat: repeat-x; /* Repeat horizontally */
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+
+}
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1000px 0;
+  }
+}
+.custom-navbar {
+  background-color: #121213; /* Dark background */
+}
+
+
+.custom-navbar .nav-link {
+  color: rgba(192, 184, 184, 0.695) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important ;
+}
+.custom-navbar .navbar-brand{
+    color:whitesmoke;
+}
+.full{
+  display: flex;
+}
+.mychange{
+ width: 500px;            /* Set fixed carousel width */
+  height: 550px;           /* Set fixed carousel height */
+  margin: 0 auto;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top:20px;
+  margin-left: 80px;
+}
+.images{
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 👈🏽 This is the magic! */
+filter: contrast(1.2) brightness(1.1) saturate(1.2);
+  image-rendering: crisp-edges;
+  filter: brightness(0.9);
+}
+
+.certification-details {
+  margin-top: 0px;
+  color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  align-items: justify;
+ 
+  
+}
+
+.certification-details h3 {
+  color: #8c939e;
+  font-weight: 600;
+  font-size: 100px;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 80px;
+}
+
+.certification-details ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  color:rgb(156, 153, 150);
+  font-family: monospace;
+}
+.right{
+  justify-content: center;
+   padding-bottom:50px;
+   padding-left:50px;
+   padding-right:80px;
+   
+   
+}
+strong{
+  color:cadetblue;
+}
+i{
+ font-size: 350px!important;
+ justify-content: center;
+ padding-left: 190px;
+ padding-top: 10px;
+ color: rgb(95, 89, 89);
+}
